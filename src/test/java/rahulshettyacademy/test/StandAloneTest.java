@@ -18,7 +18,7 @@ public class StandAloneTest extends BaseTest{
 	public void totalsubmission (HashMap<String,String> input) throws IOException, InterruptedException {
 		
 		
-		
+		//THIS IS TO TEST WEBHOOKS
 		String country = "India";
 		ProductCatalogue prod = login.Logindetails(input.get("emailID"), input.get("userpassword"));
 		prod.listOfProducts();
